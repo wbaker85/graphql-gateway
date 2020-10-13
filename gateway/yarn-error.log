@@ -1,0 +1,51 @@
+Arguments: 
+  /home/will/.nvm/versions/node/v14.12.0/bin/node /home/will/.nvm/versions/node/v14.12.0/bin/yarn add ApolloServer
+
+PATH: 
+  /home/will/.rbenv/shims:/home/will/.rbenv/bin:/home/will/.nvm/versions/node/v14.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.12.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ApolloServer: Not found
+      at Request.params.callback [as _callback] (/home/will/.nvm/versions/node/v14.12.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/will/.nvm/versions/node/v14.12.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (/home/will/.nvm/versions/node/v14.12.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (/home/will/.nvm/versions/node/v14.12.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1252:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "serviceGenerator",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "esm": "^3.2.25",
+      "mongodb": "^3.6.2"
+    },
+    "scripts": {
+      "dev": "npx nodemon -r esm src/index.js"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,20 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/wrap": "^6.2.4",
+    "apollo-server": "^2.18.2",
+    "axios": "^0.20.0",
+    "cross-fetch": "^3.0.6",
+    "esm": "^3.2.25",
+    "graphql": "^15.3.0"
+  },
+  "scripts": {
+    "dev": "nodemon -r esm src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
